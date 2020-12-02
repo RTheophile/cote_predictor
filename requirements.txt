@@ -1,0 +1,106 @@
+aiobotocore @ file:///home/conda/feedstock_root/build_artifacts/aiobotocore_1602067186051/work
+aiohttp @ file:///D:/bld/aiohttp_1603792782924/work
+aioitertools @ file:///home/conda/feedstock_root/build_artifacts/aioitertools_1605140085294/work
+argon2-cffi @ file:///C:/ci/argon2-cffi_1596828585465/work
+async-generator==1.10
+async-timeout==3.0.1
+attrs @ file:///tmp/build/80754af9/attrs_1604765588209/work
+backcall==0.2.0
+bleach @ file:///tmp/build/80754af9/bleach_1600439572647/work
+boto3 @ file:///tmp/build/80754af9/boto3_1597464530854/work
+botocore @ file:///home/conda/feedstock_root/build_artifacts/botocore_1597697384596/work
+brotlipy==0.7.0
+certifi==2020.6.20
+cffi @ file:///C:/ci/cffi_1600699246375/work
+chardet @ file:///D:/bld/chardet_1602255508636/work
+colorama @ file:///tmp/build/80754af9/colorama_1603211150991/work
+cryptography @ file:///D:/bld/cryptography_1604179264939/work
+cycler==0.10.0
+decorator==4.4.2
+defusedxml==0.6.0
+docutils==0.15.2
+entrypoints==0.3
+fastparquet @ file:///C:/ci/fastparquet_1598020649135/work
+fsspec @ file:///home/conda/feedstock_root/build_artifacts/fsspec_1602700749102/work
+idna @ file:///home/conda/feedstock_root/build_artifacts/idna_1593328102638/work
+importlib-metadata @ file:///tmp/build/80754af9/importlib-metadata_1602276842396/work
+ipykernel @ file:///C:/ci/ipykernel_1596190155316/work/dist/ipykernel-5.3.4-py3-none-any.whl
+ipython @ file:///C:/ci/ipython_1604083276484/work
+ipython-genutils==0.2.0
+ipywidgets @ file:///tmp/build/80754af9/ipywidgets_1601490159889/work
+jedi @ file:///C:/ci/jedi_1598353661586/work
+Jinja2==2.11.2
+jmespath @ file:///home/conda/feedstock_root/build_artifacts/jmespath_1589369830981/work
+joblib @ file:///tmp/build/80754af9/joblib_1601912903842/work
+jsonschema @ file:///tmp/build/80754af9/jsonschema_1602607155483/work
+jupyter==1.0.0
+jupyter-client @ file:///tmp/build/80754af9/jupyter_client_1601311786391/work
+jupyter-console @ file:///tmp/build/80754af9/jupyter_console_1598884538475/work
+jupyter-core==4.6.3
+jupyterlab-pygments @ file:///tmp/build/80754af9/jupyterlab_pygments_1601490720602/work
+jupyterthemes==0.20.0
+kiwisolver @ file:///C:/ci/kiwisolver_1604014703538/work
+lesscpy==0.13.0
+llvmlite==0.34.0
+MarkupSafe==1.1.1
+matplotlib @ file:///C:/ci/matplotlib-base_1603355780617/work
+mistune==0.8.4
+mkl-fft==1.2.0
+mkl-random==1.1.1
+mkl-service==2.3.0
+multidict @ file:///D:/bld/multidict_1602413359780/work
+nbclient @ file:///tmp/build/80754af9/nbclient_1602783176460/work
+nbconvert @ file:///C:/ci/nbconvert_1601914925608/work
+nbformat @ file:///tmp/build/80754af9/nbformat_1602783287752/work
+nest-asyncio @ file:///tmp/build/80754af9/nest-asyncio_1605115881283/work
+notebook @ file:///C:/ci/notebook_1601501643625/work
+numba==0.51.2
+numpy @ file:///C:/ci/numpy_and_numpy_base_1603466732592/work
+olefile==0.46
+packaging==20.4
+pandas @ file:///C:/ci/pandas_1602083338010/work
+pandocfilters @ file:///C:/ci/pandocfilters_1605102497129/work
+parso==0.7.0
+pickleshare==0.7.5
+Pillow @ file:///C:/ci/pillow_1603823068645/work
+ply==3.11
+prometheus-client==0.8.0
+prompt-toolkit @ file:///tmp/build/80754af9/prompt-toolkit_1602688806899/work
+pyarrow==0.15.1
+pycparser @ file:///tmp/build/80754af9/pycparser_1594388511720/work
+Pygments @ file:///tmp/build/80754af9/pygments_1604103097372/work
+pyOpenSSL==19.1.0
+pyparsing==2.4.7
+pyrsistent @ file:///C:/ci/pyrsistent_1600141795814/work
+PySocks @ file:///D:/bld/pysocks_1602327034683/work
+python-dateutil==2.8.1
+pytz==2020.1
+pywin32==227
+pywinpty==0.5.7
+pyzmq==19.0.2
+qtconsole @ file:///tmp/build/80754af9/qtconsole_1600870028330/work
+QtPy==1.9.0
+s3fs @ file:///tmp/build/80754af9/s3fs_1600553081166/work
+s3transfer==0.3.3
+scikit-learn @ file:///C:/ci/scikit-learn_1598377018496/work
+scipy @ file:///C:/ci/scipy_1604596260408/work
+seaborn @ file:///tmp/build/80754af9/seaborn_1600553570093/work
+Send2Trash==1.5.0
+sip==4.19.13
+six @ file:///C:/ci/six_1605187374963/work
+terminado==0.9.1
+testpath==0.4.4
+threadpoolctl @ file:///tmp/tmp9twdgx9k/threadpoolctl-2.1.0-py3-none-any.whl
+thrift==0.11.0
+tornado==6.0.4
+traitlets @ file:///tmp/build/80754af9/traitlets_1602787416690/work
+typing-extensions @ file:///home/conda/feedstock_root/build_artifacts/typing_extensions_1602702424206/work
+urllib3 @ file:///home/conda/feedstock_root/build_artifacts/urllib3_1603125704209/work
+wcwidth @ file:///tmp/build/80754af9/wcwidth_1593447189090/work
+webencodings==0.5.1
+widgetsnbextension==3.5.1
+win-inet-pton @ file:///D:/bld/win_inet_pton_1602260115377/work
+wincertstore==0.2
+wrapt==1.12.1
+yarl @ file:///D:/bld/yarl_1602670345243/work
+zipp @ file:///tmp/build/80754af9/zipp_1604001098328/work

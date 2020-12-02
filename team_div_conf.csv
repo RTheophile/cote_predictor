@@ -1,0 +1,31 @@
+team_id;team_name;division;conf
+0;charlotte hornets;s-e;E
+1;atlanta hawks;s-e;E
+2;sacramento kings;pacifique;O
+3;chicago bulls;centre;E
+4;milwaukee bucks;centre;E
+5;dallas mavericks;s-o;O
+6;phoenix suns;pacifique;O
+7;golden state warriors;pacifique;O
+8;minnesota timberwolves;n-o;O
+9;houston rockets;s-o;O
+10;cleveland cavaliers;centre;E
+11;brooklyn nets;atlantique;E
+12;philadelphia 76ers;atlantique;E
+13;new york knicks;atlantique;E
+14;washington wizards;s-e;E
+15;orlando magic;s-e;E
+16;los angeles lakers;pacifique;O
+17;portland trail blazers;n-o;O
+18;indiana pacers;centre;E
+19;san antonio spurs;s-o;O
+20;detroit pistons;centre;E
+21;toronto raptors;atlantique;E
+22;los angeles clippers;pacifique;O
+23;utah jazz;n-o;O
+25;memphis grizzlies;s-o;O
+26;boston celtics;atlantique;E
+27;miami heat;s-e;O
+28;denver nuggets;n-o;O
+29;new orleans pelicans;s-o;O
+30;oklahoma city thunder;n-o;O
