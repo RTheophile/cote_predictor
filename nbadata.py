@@ -85,8 +85,8 @@ class NbaData():
     # Used for averaging kpi's of past games     
     def compute_weights(self):
         # Optimal lambda_parameter has been computed with a logistic regression
-        lambda_parameter = 0.04
-        self.histo_weights = [1 + math.exp(-x * lambda_parameter) for x in range(1000)]
+        lambda_parameter = 0.03
+        self.histo_weights = [ math.exp(-x * lambda_parameter) for x in range(1000)]
         print('histo_weights computed')
 
     # Used to get quickly any player's data 
