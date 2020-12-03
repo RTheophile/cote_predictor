@@ -1,2 +1,15 @@
 
 credentials.txt
+df_encounters
+df_features
+df_game_player_team
+df_games
+df_games_histo
+df_player_conso
+df_player_histo
+df_players
+*.pyc
+cote_nba_before_regular_season.csv
+cote_nba_before_playoff.csv
+*.xml
+*.iml
