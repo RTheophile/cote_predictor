@@ -15,9 +15,14 @@ Execution
 - Il faut 4 à 5 heures pour l'extraction des variables. (Uniquement au premier lancement. Les données sont stockées en local au fur et à mesure pour permettre leur exploration et leur réutilisation.)
 - Entre 1h et 2h pour les simulations.
 
-Output : deux fichiers contenant les cotes de chaque équipe avant et après la saison régulière. 3 graphiques en plus si lancé depuis le notebook.
+Output 
+- Deux fichiers contenant les cotes de chaque équipe avant et après la saison régulière. 
+- 3 graphiques en plus si lancé depuis le notebook.
 
-Bugs possible : 
+Ce que ce programme ne fait jamais
+- Utiliser des données du match ou postérieur à celui-ci pour prédire l'issu du match.
+
+Bugs connus
 - Si votre connexion à AWS n'est pas configuré et que vous n'ajoutez pas de credentials.txt
 
 Fiabilité du système
