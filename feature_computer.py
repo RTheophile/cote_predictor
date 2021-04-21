@@ -6,44 +6,20 @@ import nbadata
 
 
 class feature_computer():
-    # Game_score is a complexe KPI designed by Dean Olivier reflecting the effect the player had on the match
-
+     
     resources = None
 
     def __init__(self):
         self.resources = nbadata.NbaDataSg()
 
     def compute_game_score(df):
+        # Game_score is a complexe KPI designed by Dean Olivier reflecting the effect the player had on the match
         def game_score_formula(ax):
             _2p = ax.fg - ax._3p
             _pts = _2p * 2 + ax._3p * 3
             gmscore = _pts + 0.4 * ax.fg - 0.7 * ax.fga - 0.4 * (ax.fta - ax.ft) + 0.7 * ax.orb + 0.3 * ax.drb + ax.stl + 0.7 * ax.ast + 0.7 * ax.blk - 0.4 * ax.pf - ax.tov
             return gmscore
-
         return df.fillna(0).apply(game_score_formula, axis=1)
-
-        # Obsolete even if good results : all of this is random magic numbers
-
-    def compute_histo_gamescore_v1(player_dictionary, player_id, game_date):
-        player_histo = player_dictionary.loc[player_id]
-        player_histo_filtered = player_histo[player_histo.index < game_date].head(400)
-        custom_avg = 0
-        if player_histo_filtered.shape[0] > 200:
-            avg_new = player_histo_filtered.head(20).game_score.mean()
-            avg_middle = player_histo_filtered.head(100).tail(80).game_score.mean()
-            avg_old = player_histo_filtered.head(400).tail(300).game_score.mean()
-            custom_avg = avg_new * 0.2 + avg_middle * 0.4 + avg_old * 0.4
-        elif player_histo_filtered.shape[0] > 10:
-            n = player_histo_filtered.shape[0]
-            n_8 = int(n * 0.8)
-            avg_new = player_histo_filtered.head(n - n_8).game_score.mean()
-            avg_old = player_histo_filtered.head(n).tail(n_8).game_score.mean()
-            custom_avg = avg_new * 0.3 + avg_old * 0.3
-        elif player_histo_filtered.shape[0] != 0:
-            custom_avg = player_histo_filtered.game_score.mean() * 0.4
-        else:
-            custom_avg = 0
-        return custom_avg
 
     def weighted_mean(self, serie):
         max_depth = 200

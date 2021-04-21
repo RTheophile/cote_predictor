@@ -16,7 +16,7 @@ def get_pca(data, columns, n_components):
 
 # Compute the features components after pca rotation and add them to the provided dataframe
 def add_pca_conponent_as_features(df, feature_glossary, pca, n_components):
-    df = df.fillna(method='bfill').fillna(df.mean()).reset_index(drop=True)
+    df = df.fillna(method='ffill').fillna(df.mean()).reset_index(drop=True)
 
     # Components columns are computed using the provided pca
     component_columns = ['Component_' + str(x) for x in range(n_components)]
